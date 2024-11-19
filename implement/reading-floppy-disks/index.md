@@ -1,4 +1,5 @@
 ---
+title: "A Guide To Imaging Obscure Floppy Disk Formats"
 abstract: |
     This guide is written for people getting started with imaging floppy disks within the digital preservation community, particularly smaller institutions or those with tight budgetary constraints.
 
@@ -10,13 +11,20 @@ authors:
   - Tyler Thorsted
   - Elizabeth Kata
   - Chris Knowles
+thumbnail: ./media/image7.png
 exports:
-  - format: typst
+  - format: pdf
     template: lapreprint-typst
     output: exports/imaging-floppy-disks.pdf
----
+downloads:
+  - file: index.md
+    title: Source Markdown File
+  - file: exports/imaging-floppy-disks.pdf
+    title: PDF
+  - file: exports/imaging-floppy-disks.epub
+    title: ePub
 
-# A Guide To Imaging Obscure Floppy Disk Formats
+---
 
 <img src="./media/image7.png" style="width:7.17507in;height:10.14583in" />
 
@@ -36,6 +44,7 @@ Most of these drives will not have been used for a number of years, so giving th
 
 The next step is to purchase a floppy controller. There are a several [different options](https://wiki.foone.org//w/Floppy_Controllers) out there, a number of them being highlighted in more detail below. Some only work with particular operating systems, so do make sure that you are obtaining an appropriate one for the device you will be using it with.
 
+
 <table>
 <colgroup>
 <col style="width: 74%" />
@@ -49,36 +58,90 @@ The next step is to purchase a floppy controller. There are a several [different
 <p>Note: Can run nearly all functions of the FluxEngine software with the GreaseWeazle hardware (below)</p></th>
 <th><img src="./media/image22.png" style="width:1.55273in;height:0.64697in" /></th>
 </tr>
+</thead>
+</table>
+
+<table>
+<colgroup>
+<col style="width: 74%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
 <tr class="odd">
 <th><p><a href="https://www.kryoflux.com/"><strong>Kryoflux</strong></a></p>
 <p>Pros: Good support and guidance, including the <a href="https://github.com/archivistsguidetokryoflux/archivists-guide-to-kryoflux">Archivist’s Guide to Kryoflux</a></p>
 <p>Cons: Can be expensive for memory institutions</p></th>
 <th><img src="./media/image20.png" style="width:1.57292in;height:1.04167in" /></th>
 </tr>
+</thead>
+</table>
+
+<table>
+<colgroup>
+<col style="width: 74%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
 <tr class="header">
 <th><p><a href="https://github.com/keirf/greaseweazle"><strong>GreaseWeazle</strong></a></p>
 <p>Pros: Open-source software, active community, cheap board, integrated power connector for 3.5" drives</p>
 <p>Cons: Community build, so no clear support, can be quite technical when looking for solutions</p></th>
 <th><img src="./media/image21.png" style="width:1.57292in;height:1.18056in" /></th>
 </tr>
+</thead>
+</table>
+
+<table>
+<colgroup>
+<col style="width: 74%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
 <tr class="odd">
 <th><p><a href="http://www.deviceside.com/fc5025.html"><strong>FC 5025</strong></a></p>
 <p>Pros: Relatively cheap, easy to use software, able to directly extract files from many formats</p>
 <p>Cons: Only for certain common formats, only for 5.25-inch floppies, disk errors cannot be looked at in detail</p></th>
 <th><img src="./media/image18.png" style="width:1.57292in;height:0.625in" /></th>
 </tr>
+</thead>
+</table>
+
+<table>
+<colgroup>
+<col style="width: 74%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
 <tr class="header">
 <th><p><a href="https://www.cbmstuff.com/index.php?route=product/product&amp;product_id=52"><strong>Supercard Pro</strong></a></p>
 <p>Pros: Relatively cheap, can read some obscure formats not offered by other floppy controllers, integrated power connector for 3.5" drives</p>
 <p>Cons: Only for 3.5-inch and 5.25-inch floppies</p></th>
 <th><img src="./media/image16.png" style="width:1.57292in;height:1.18056in" /></th>
 </tr>
+</thead>
+</table>
+
+<table>
+<colgroup>
+<col style="width: 74%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
 <tr class="odd">
 <th><p><a href="https://applesaucefdc.com/"><strong>AppleSauce</strong></a></p>
 <p>Pros: Software has been created with preservation in mind, interface is easy to use and has many extra options, including visualisation and extraction.</p>
 <p>Cons: Board has been out of stock for a long time, software is currently MacOS only.</p></th>
 <th><img src="./media/image17.png" style="width:1.57292in;height:1.13889in" /></th>
 </tr>
+</thead>
+</table>
+
+<table>
+<colgroup>
+<col style="width: 74%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
 <tr class="header">
 <th><p><a href="https://www.laludotheque.fr/wp-content/uploads/2021/01/user_manual_pauline_v1.3_EN.pdf"><strong>Pauline</strong></a></p>
 <p>Pros: Open-source, works with a web interface, so not dependent on a specific operating system</p>
@@ -86,8 +149,6 @@ The next step is to purchase a floppy controller. There are a several [different
 <th><img src="./media/image19.png" style="width:1.57292in;height:1.04167in" /></th>
 </tr>
 </thead>
-<tbody>
-</tbody>
 </table>
 
 ## Step 3. Ensure you have the right cables & power source
@@ -255,4 +316,4 @@ To extract files form the Amstrad disks, [Locolink](https://www.seasip.info/Unix
 
 <img src="./media/image9.png" style="width:2.63244in;height:2.09896in" />
 
-[1] "In the early 1980s, more than 80% of the 2,000 largest U.S. companies used Wang office equipment, and in 1984 Wang Laboratories' profits reached $210 million on sales of $2.2 billion." Brewster, Mike. "An Wang: The Core of the Computer Era." Business Week. 2004-07-14.[https://web.archive.org/web/20160713102253/https://www.bloomberg.com/news/articles/2004-07-13/an-wang-the-core-of-the-computer-era](https://web.archive.org/web/20160713102253/https://www.bloomberg.com/news/articles/2004-07-13/an-wang-the-core-of-the-computer-era) Accessed: 2024-09-15.
+[1] "In the early 1980s, more than 80% of the 2,000 largest U.S. companies used Wang office equipment, and in 1984 Wang Laboratories' profits reached $210 million on sales of $2.2 billion." Brewster, Mike. "An Wang: The Core of the Computer Era." Business Week. 2004-07-14. [https://web.archive.org/web/20160713102253/https://www.bloomberg.com/news/articles/2004-07-13/an-wang-the-core-of-the-computer-era](https://web.archive.org/web/20160713102253/https://www.bloomberg.com/news/articles/2004-07-13/an-wang-the-core-of-the-computer-era) Accessed: 2024-09-15.

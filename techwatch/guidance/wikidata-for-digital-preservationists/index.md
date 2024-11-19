@@ -1,17 +1,15 @@
 ---
 title: Wikidata for Digital Preservationists
-description: 
-published: true
 date: 2024-06-13T09:58:07.496Z
-tags: 
 editor: markdown
-dateCreated: 2024-06-13T09:37:14.244Z
 authors:
 - Katherine Thornton
 abstract: |
   Wikidata for Digital Preservationists gives a brief introduction to Wikidata before continuing to provide practical advice on using, contributing, describing and curating data entries to enable storage and access to trusted data.
+banner: ./media/image2.png
+thumbnail: ./media/image1.jpeg
 exports:
-  - format: typst
+  - format: pdf
     template: lapreprint-typst
     output: exports/wikidata-for-digipres.pdf
 ---

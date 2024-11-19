@@ -23,7 +23,9 @@ project:
     
 site:
   template: book-theme
-  logo_text: DPC Publications
+  options:
+    logo_text: DPC Publications
+    folders: true # Do not flatten URLs
   #actions:
   #  - title: A URL
   #    url: https://mystmd.org
