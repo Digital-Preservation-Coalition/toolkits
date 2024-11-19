@@ -7,7 +7,8 @@ abstract: |
     
     This guide was created for the iPRES 2024 workshop: "Working on a Budget With WANG Disks and Other Obscure Formats." The hardware and software identified below works for us in 2024, but these lists could go out of date quickly, either from support stopping or from more preferable options being developed.
 authors:
-  - Leontien Talboom
+  - name: Leontien Talboom
+    affiliation: Cambridge University Library
   - Tyler Thorsted
   - Elizabeth Kata
   - Chris Knowles
@@ -18,12 +19,11 @@ exports:
     output: exports/imaging-floppy-disks.pdf
 downloads:
   - file: index.md
-    title: Source Markdown File
+    title: Markdown Source
   - file: exports/imaging-floppy-disks.pdf
     title: PDF
   - file: exports/imaging-floppy-disks.epub
     title: ePub
-
 ---
 
 <img src="./media/image7.png" style="width:7.17507in;height:10.14583in" />
