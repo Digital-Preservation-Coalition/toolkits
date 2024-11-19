@@ -12,12 +12,17 @@ authors:
   - Tyler Thorsted
   - Elizabeth Kata
   - Chris Knowles
+subject: Media Migration
+tags:
+- Floppy Disks
+- Media Migration
 thumbnail: ./media/image7.png
 exports:
   - format: pdf
     template: lapreprint-typst
     output: exports/imaging-floppy-disks.pdf
 downloads:
+  - file: index.md
   - file: exports/imaging-floppy-disks.pdf
     title: PDF
   - file: exports/imaging-floppy-disks.epub

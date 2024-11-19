@@ -3,11 +3,18 @@ version: 1
 project:
   id: dpc-publications
   title: DPC Publications
+  github: https://github.com/Digital-Preservation-Coalition/digipres-publications
+  license:
+    code: MIT
+    content: CC-BY-4.0
+  # subject: Digital Preservation
   # description:
   # keywords: []
   # authors: []
-  github: https://github.com/Digital-Preservation-Coalition/digipres-publications
-  # The contents:
+  downloads:
+  abbreviations:
+    DPC: Digital Preservation Coalition
+  # The actual contents:
   toc:
   - file: index.md
   - title: Implement

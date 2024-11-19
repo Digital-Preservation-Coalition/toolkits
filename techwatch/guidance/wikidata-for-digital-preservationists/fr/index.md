@@ -6,12 +6,10 @@ authors:
 - name: Katherine Thornton
 - name: Thomas Ledoux
   affiliation: "Bibliothèque nationale de France"
-  roles: 
-  - Translation
+  role: Translation
 - name: "Stéphanie Roussel"
   affiliation: Mintika
-  roles: 
-  - Translation
+  role: Translation
 abstract: |
   Wikidata for Digital Preservationists gives a brief introduction to Wikidata before continuing to provide practical advice on using, contributing, describing and curating data entries to enable storage and access to trusted data.
 banner: ./media/image2.png
