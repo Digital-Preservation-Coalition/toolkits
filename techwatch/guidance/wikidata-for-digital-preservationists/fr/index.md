@@ -1,14 +1,15 @@
 ---
-title: Wikidata pour les spécialistes de la préservation numérique
+title: "Wikidata pour les spécialistes de la préservation numérique"
 doi: 10.7207/twgn21-19-FR
-date: 2024-06-13T09:58:07.496Z
-editor: markdown
+date: 2023-06-06
 authors:
 - name: Katherine Thornton
 - name: Thomas Ledoux
+  affiliation: "Bibliothèque nationale de France"
   roles: 
   - Translation
-- name: Stéphanie Roussel
+- name: "Stéphanie Roussel"
+  affiliation: Mintika
   roles: 
   - Translation
 abstract: |
@@ -16,9 +17,9 @@ abstract: |
 banner: ./media/image2.png
 thumbnail: ./media/image1.jpeg
 exports:
-  - format: pdf
-    template: lapreprint-typst
-    output: exports/wikidata-for-digipres.pdf
+- format: pdf
+  template: lapreprint-typst
+  output: exports/wikidata-for-digipres-fr.pdf
 ---
 
 <img src="./media/image1.jpeg" style="width:8.25417in;height:11.67778in" />

@@ -18,8 +18,6 @@ exports:
     template: lapreprint-typst
     output: exports/imaging-floppy-disks.pdf
 downloads:
-  - file: index.md
-    title: Markdown Source
   - file: exports/imaging-floppy-disks.pdf
     title: PDF
   - file: exports/imaging-floppy-disks.epub

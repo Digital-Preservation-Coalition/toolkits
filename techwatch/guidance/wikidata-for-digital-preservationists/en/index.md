@@ -1,6 +1,6 @@
 ---
 title: Wikidata for Digital Preservationists
-date: 2024-06-13T09:58:07.496Z
+date: 2021-03-09
 editor: markdown
 authors:
 - Katherine Thornton
