@@ -1,0 +1,32 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: dpc-publications
+  title: DPC Publications
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/Digital-Preservation-Coalition/digipres-publications
+  # The contents:
+  toc:
+  - file: index.md
+  - title: Implement
+    children:
+    - title: A Guide To Imaging Obscure Floppy Disk Formats
+      file: implement/reading-floppy-disks/index.md
+  - title: Technology Watch
+    children:
+    - title: Guidance Notes
+      children:
+      - title: Wikidata For Digital Preservationists
+        file: techwatch/guidance/wikidata-for-digital-preservationists/index.md
+    
+site:
+  template: book-theme
+  logo_text: DPC Publications
+  #actions:
+  #  - title: A URL
+  #    url: https://mystmd.org
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
