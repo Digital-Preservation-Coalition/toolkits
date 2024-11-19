@@ -19,12 +19,17 @@ project:
     - title: Guidance Notes
       children:
       - title: Wikidata For Digital Preservationists
-        file: techwatch/guidance/wikidata-for-digital-preservationists/index.md
+        children:
+        - file: techwatch/guidance/wikidata-for-digital-preservationists/en/index.md
+        - file: techwatch/guidance/wikidata-for-digital-preservationists/fr/index.md
     
 site:
   template: book-theme
   options:
-    logo_text: DPC Publications
+    logo_text: Publications
+    favicon: dpc_cmyk_Portrait.svg
+    logo: dpc_cmyk_Portrait.svg
+    logo_dark: DPCLogoOnly_White.svg
     folders: true # Do not flatten URLs
   #actions:
   #  - title: A URL
