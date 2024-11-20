@@ -22,15 +22,12 @@ project:
       children:
       - title: Guidance Notes
         children:
-        - title: Wikidata For Digital Preservationists
-          file: techwatch/guidance/wikidata-for-digital-preservationists/en/index.md
+        - file: techwatch/guidance/wikidata-for-digital-preservationists/en/index.md
           children:
           - file: techwatch/guidance/wikidata-for-digital-preservationists/fr/index.md
-  - title: Implement
-    file: implement/index.md
+  - file: implement/index.md
     children:
-    - title: A Guide To Imaging Obscure Floppy Disk Formats
-      file: implement/reading-floppy-disks/index.md
+    - file: implement/imaging-floppy-disks/index.md
   - title: Champion
     children:
     - title: ...TBA...
