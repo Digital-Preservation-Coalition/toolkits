@@ -19,9 +19,10 @@ project:
   - file: what-is-digipres.md
   - file: discover/index.md
     children:
-    - title: Technology Watch
+    - file: techwatch/index.md
       children:
-      - title: Guidance Notes
+      - file: techwatch/reports/index.md
+      - file: techwatch/guidance/index.md
         children:
         - file: techwatch/guidance/wikidata-for-digital-preservationists/en/index.md
           children:
