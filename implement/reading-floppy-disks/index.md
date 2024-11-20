@@ -12,7 +12,7 @@ authors:
   - Tyler Thorsted
   - Elizabeth Kata
   - Chris Knowles
-subject: Media Migration
+subject: Implement Digital Preservation
 tags:
 - Floppy Disks
 - Media Migration
@@ -29,7 +29,9 @@ downloads:
     title: ePub
 ---
 
-<img src="./media/image7.png" style="width:7.17507in;height:10.14583in" />
+:::{aside}
+<img src="./media/image7.png"/>
+:::
 
 # Getting started
 
@@ -317,6 +319,9 @@ When working with these disks, it is easiest to create a raw flux stream in firs
 
 To extract files form the Amstrad disks, [Locolink](https://www.seasip.info/Unix/Joyce/locolink.html), [AILink](https://ai.ansible.uk/ailink.html) or [AmstradDSKExplorer](https://github.com/muckypaws/AmstradDSKExplorer) can be used.
 
-<img src="./media/image9.png" style="width:2.63244in;height:2.09896in" />
+:::{aside}
+<img src="./media/image9.png" />
+:::
 
-[1] "In the early 1980s, more than 80% of the 2,000 largest U.S. companies used Wang office equipment, and in 1984 Wang Laboratories' profits reached $210 million on sales of $2.2 billion." Brewster, Mike. "An Wang: The Core of the Computer Era." Business Week. 2004-07-14. [https://web.archive.org/web/20160713102253/https://www.bloomberg.com/news/articles/2004-07-13/an-wang-the-core-of-the-computer-era](https://web.archive.org/web/20160713102253/https://www.bloomberg.com/news/articles/2004-07-13/an-wang-the-core-of-the-computer-era) Accessed: 2024-09-15.
+
+[1] "In the early 1980s, more than 80% of the 2,000 largest U.S. companies used Wang office equipment, and in 1984 Wang Laboratories' profits reached \$210 million on sales of \$2.2 billion." Brewster, Mike. "An Wang: The Core of the Computer Era." Business Week. 2004-07-14. [https://web.archive.org/web/20160713102253/https://www.bloomberg.com/news/articles/2004-07-13/an-wang-the-core-of-the-computer-era](https://web.archive.org/web/20160713102253/https://www.bloomberg.com/news/articles/2004-07-13/an-wang-the-core-of-the-computer-era) Accessed: 2024-09-15.

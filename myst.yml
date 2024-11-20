@@ -5,9 +5,8 @@ project:
   title: DPC Publications
   github: https://github.com/Digital-Preservation-Coalition/digipres-publications
   license:
-    code: MIT
     content: CC-BY-4.0
-  # subject: Digital Preservation
+  subject: Digital Preservation Coalition Publications
   # description:
   # keywords: []
   # authors: []
@@ -17,30 +16,33 @@ project:
   # The actual contents:
   toc:
   - file: index.md
+  - title: Discover
+    children:
+    - title: Technology Watch
+      children:
+      - title: Guidance Notes
+        children:
+        - title: Wikidata For Digital Preservationists
+          file: techwatch/guidance/wikidata-for-digital-preservationists/en/index.md
+          children:
+          - file: techwatch/guidance/wikidata-for-digital-preservationists/fr/index.md
   - title: Implement
+    file: implement/index.md
     children:
     - title: A Guide To Imaging Obscure Floppy Disk Formats
       file: implement/reading-floppy-disks/index.md
-  - title: Technology Watch
+  - title: Champion
     children:
-    - title: Guidance Notes
-      children:
-      - title: Wikidata For Digital Preservationists
-        children:
-        - file: techwatch/guidance/wikidata-for-digital-preservationists/en/index.md
-        - file: techwatch/guidance/wikidata-for-digital-preservationists/fr/index.md
+    - title: ...TBA...
     
 site:
   template: book-theme
   options:
     logo_text: Publications
-    favicon: dpc_cmyk_Portrait.svg
-    logo: dpc_cmyk_Portrait.svg
-    logo_dark: DPCLogoOnly_White.svg
+    favicon: ./images/dpc_cmyk_Portrait.svg
+    logo: ./images/dpc_cmyk_Portrait.svg
+    logo_dark: ./images/DPCLogoOnly_White.svg
     folders: true # Do not flatten URLs
   #actions:
-  #  - title: A URL
-  #    url: https://mystmd.org
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  # - title: DPC
+  #   url: https://dpconline.org

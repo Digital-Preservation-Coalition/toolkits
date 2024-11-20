@@ -1,14 +1,14 @@
 ---
 title: Wikidata for Digital Preservationists
+subject: Technology Watch Guidance Notes
+doi: 10.7207/twgn21-19
 date: 2021-03-09
-editor: markdown
 authors:
 - Katherine Thornton
 abstract: |
   Wikidata for Digital Preservationists gives a brief introduction to Wikidata before continuing to provide practical advice on using, contributing, describing and curating data entries to enable storage and access to trusted data.
 banner: ./media/image2.png
 thumbnail: ./media/image1.jpeg
-doi: 10.7207/twgn21-19
 exports:
   - format: pdf
     template: lapreprint-typst

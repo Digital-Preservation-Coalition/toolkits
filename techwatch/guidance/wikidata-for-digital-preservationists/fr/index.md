@@ -1,5 +1,6 @@
 ---
 title: "Wikidata pour les spécialistes de la préservation numérique"
+subject: Technology Watch Guidance Notes
 doi: 10.7207/twgn21-19-FR
 date: 2023-06-06
 authors:
