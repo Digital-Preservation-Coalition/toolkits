@@ -6,7 +6,7 @@ project:
   github: https://github.com/Digital-Preservation-Coalition/digipres-publications
   license:
     content: CC-BY-4.0
-  subject: Digital Preservation Coalition Publications
+  subject: 
   # description:
   # keywords: []
   # authors: []
@@ -16,7 +16,8 @@ project:
   # The actual contents:
   toc:
   - file: index.md
-  - title: Discover
+  - file: what-is-digipres.md
+  - file: discover/index.md
     children:
     - title: Technology Watch
       children:
@@ -28,7 +29,7 @@ project:
   - file: implement/index.md
     children:
     - file: implement/imaging-floppy-disks/index.md
-  - title: Champion
+  - file: champion/index.md
     children:
     - title: ...TBA...
     
@@ -36,7 +37,7 @@ site:
   template: book-theme
   options:
     logo_text: Publications
-    favicon: ./images/dpc_cmyk_Portrait.svg
+    favicon: ./images/favicon.ico
     logo: ./images/dpc_cmyk_Portrait.svg
     logo_dark: ./images/DPCLogoOnly_White.svg
     folders: true # Do not flatten URLs
