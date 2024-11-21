@@ -101,4 +101,40 @@ It doesn't automatically create/forward other views like a preview pane, so some
 
 Ideally it would be possible to forward/share the live preview of the version being co-authored. i.e. run the lead session on a real computer running the preview pane, and forward the pane somehow.
 
+GitHub Desktop
+Python 3.11 from MS Store
+VS Code + Extensions for Python & Live Share
 
+For a virtual environment:
+
+```
+PS C:\Windows\system32> Set-ExecutionPolicy unrestricted
+
+Execution Policy Change
+The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose
+you to the security risks described in the about_Execution_Policies help topic at
+https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): A
+PS C:\Windows\system32>
+```
+
+```
+python3 -m venv .venv
+.\.venv\Scripts\activate
+pip install myst
+pip install mystmd
+myst start
+```
+
+Tried to install Node the first time it ran, but it didn't work. Installing manually via https://nodejs.org/en/download/prebuilt-installer
+Did a default install with no additional dependencies e.g. Chocolatey.
+
+Restarted VS Code. Then node was picked up okay.
+
+Okay, pretty sure the web version of VS Code can't share servers the way Live Share intends that to work. I can set up individual forwarded ports using the separate port forwarding system, but that doens't work because `myst start` needs two ports (!).
+
+Yes, running full VS Code with Live Share works fine and can be set up to immediately see local changes.
+
+So, can fully collaborate on just about anything if folks can install VS Code locally.  Can pretty easily use web VS Code to edit things together, but preview will need additional work, e.g. building the site as static files and sharing that somehow.
+
+I mean, really, this should be a blog, right?
