@@ -138,3 +138,24 @@ Yes, running full VS Code with Live Share works fine and can be set up to immedi
 So, can fully collaborate on just about anything if folks can install VS Code locally.  Can pretty easily use web VS Code to edit things together, but preview will need additional work, e.g. building the site as static files and sharing that somehow.
 
 I mean, really, this should be a blog, right?
+
+
+
+jupyter-book build .
+
+I've found I can just run http.server
+
+python -m http.server --directory ${PWD}/_build/html
+
+
+
+export BASE_URL=foobar
+nohup watchmedo shell-command -v \
+        --patterns='*.md;*.ipynb' \
+        --recursive \
+        --command='myst build --html && pkill node' \
+        --ignore-patterns='./_build/html/build/*;nohup.out' \
+        --drop \
+        . &
+cd _build/html
+printf y|npx http-server --port 8000 --cors
