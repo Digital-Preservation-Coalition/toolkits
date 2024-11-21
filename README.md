@@ -89,3 +89,16 @@ downloads:
 
 You can edit online using [this vscode.dev link](https://vscode.dev/github/Digital-Preservation-Coalition/digipres-publications).  You'll need to allow pop-ups so it can authenticate you and log you into GitHub.
 
+You can even install and enable the [Live Share extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare), and then send people a link they can use to co-author pages from their web browser.
+
+I did find that Firefox failed to work with the shared link, due to this error:
+
+    Firefox Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://prod.liveshare.vsengsaas.visualstudio.com/..........
+
+But Chrome worked fine from the same machine?! Safari should work too.
+
+It doesn't automatically create/forward other views like a preview pane, so some instruction would be needed.
+
+Ideally it would be possible to forward/share the live preview of the version being co-authored. i.e. run the lead session on a real computer running the preview pane, and forward the pane somehow.
+
+
