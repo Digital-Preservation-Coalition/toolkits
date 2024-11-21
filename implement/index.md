@@ -10,7 +10,7 @@ The following tools provide detailed guidance on advancing or refreshing digital
 
 :::{card}
 :header: A Guide To Imaging Obscure Floppy Disk Formats
-:link: implement/imaging-floppy-disks
+:link: ./implement/imaging-floppy-disks
 <div style="float: right; width: 100px; margin: 0.4em;"><img src="./imaging-floppy-disks/media/image9.png"></div>
 This guide is written for people getting started with imaging floppy disks within the digital preservation community, particularly smaller institutions or those with tight budgetary constraints.
 :::
