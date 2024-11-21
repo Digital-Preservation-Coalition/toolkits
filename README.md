@@ -159,3 +159,5 @@ nohup watchmedo shell-command -v \
         . &
 cd _build/html
 printf y|npx http-server --port 8000 --cors
+Ideally it would be possible to forward/share the live preview of the version being co-authored. i.e. run the lead session on a real computer running the preview pane, and forward the pane somehow. Seems like it should work, but I think not via WSL. Trying when running directly in Windows...
+

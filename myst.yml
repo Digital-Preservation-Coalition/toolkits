@@ -6,14 +6,16 @@ project:
   github: https://github.com/Digital-Preservation-Coalition/digipres-publications
   license:
     content: CC-BY-4.0
-  subject: 
+  open_access: true
+  subject: ""
   # description:
   # keywords: []
   # authors: []
-  downloads:
+  downloads: []
   abbreviations:
     DPC: Digital Preservation Coalition
-  # The actual contents:
+
+  # Now, the actual contents:
   toc:
   - file: index.md
   - file: what-is-digipres.md

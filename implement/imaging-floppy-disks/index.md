@@ -1,11 +1,6 @@
 ---
 title: "A Guide To Imaging Obscure Floppy Disk Formats"
-abstract: |
-    This guide is written for people getting started with imaging floppy disks within the digital preservation community, particularly smaller institutions or those with tight budgetary constraints.
-
-    The guide starts by outlining how to acquire and set up the equipment. It will then give an example of a workflow for the transfer of floppy disks. Finally, it will highlight some obscure formats and how to get started with these. The assumption is made that you have a computer or laptop to connect the floppy controller to. This device does not have to be anything fancy or high-tech, as little processing power and storage is needed to work with floppy disks.
-    
-    This guide was created for the iPRES 2024 workshop: "Working on a Budget With WANG Disks and Other Obscure Formats." The hardware and software identified below works for us in 2024, but these lists could go out of date quickly, either from support stopping or from more preferable options being developed.
+subtitle: Part of the Future Nostalgia project
 authors:
   - name: Leontien Talboom
     affiliation: Cambridge University Library
@@ -28,19 +23,29 @@ exports:
     output: exports/imaging-floppy-disks.pdf
 downloads:
   - file: index.md
+    title: index.md
   - file: exports/imaging-floppy-disks.pdf
     title: PDF
   - file: exports/imaging-floppy-disks.epub
     title: ePub
 ---
 
-:::{note}
-This first version of this guide was created for a workshop at iPRES 2024. It will be updated and become hosted by the DPC as part of the [Future Nostalgia](https://www.lib.cam.ac.uk/stories/floppy-disk-funding) project.
+:::{warning} Status: Work In Progress
+This first version of this guide was created for a workshop at iPRES 2024. It is being updated and becoming hosted by the DPC as part of the [Future Nostalgia](https://www.lib.cam.ac.uk/stories/floppy-disk-funding) project.
 :::
 
 :::{aside}
 <img src="./media/image7.png"/>
 :::
+
+# Abstract
+
+This guide is written for people getting started with imaging floppy disks within the digital preservation community, particularly smaller institutions or those with tight budgetary constraints.
+
+The guide starts by outlining how to acquire and set up the equipment. It will then give an example of a workflow for the transfer of floppy disks. Finally, it will highlight some obscure formats and how to get started with these. The assumption is made that you have a computer or laptop to connect the floppy controller to. This device does not have to be anything fancy or high-tech, as little processing power and storage is needed to work with floppy disks.
+
+This guide was created for the iPRES 2024 workshop: "Working on a Budget With WANG Disks and Other Obscure Formats." The hardware and software identified below works for us in 2024, but these lists could go out of date quickly, either from support stopping or from more preferable options being developed.
+
 
 # Getting started
 
