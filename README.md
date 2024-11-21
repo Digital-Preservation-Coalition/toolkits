@@ -1,7 +1,7 @@
 # digipres-publications
 An experiment in using a Markdown workflow for DPC publications.
 
-## How it works:
+## How it works
 
 This is all pretty much vanilla [MystMD](https://mystmd.org/).  The system also generates PDFs via Typst, and Pandoc is used to bring in publications from other sources.
 
@@ -83,3 +83,9 @@ downloads:
 
 - Currently, as it's running on GitHub Pages, this repo needs to be public in order for the results to be visible. We'll probably want to keep source files separate, or limit access to works-in-progress.
 - Typst makes nice PDFs but can be a bit picky. It especially does not like styling within hyperlinks (e.g. `[<u>link</u>]` or `[_link_]`). That is bad practice anyway, but it would be good to work on the DOCX-to-Markdown transformation to make this as clean as possible.
+
+
+## Editing Content
+
+You can edit online using [this vscode.dev link](https://vscode.dev/github/Digital-Preservation-Coalition/digipres-publications).  You'll need to allow pop-ups so it can authenticate you and log you into GitHub.
+
