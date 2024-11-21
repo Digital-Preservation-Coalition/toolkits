@@ -9,9 +9,14 @@ abstract: |
 authors:
   - name: Leontien Talboom
     affiliation: Cambridge University Library
-  - Tyler Thorsted
-  - Elizabeth Kata
-  - Chris Knowles
+  - name: Tyler Thorsted
+    affiliation: Brigham Young University
+  - name: Elizabeth Kata
+    affiliation: International Atomic Energy Agency
+  - name: Chris Knowles
+    affiliation: Churchill Archives Centre
+date: 2024-07-12
+github: https://github.com/Digital-Preservation-Coalition/digipres-publications/blob/main/implement/imaging-floppy-disks/index.md 
 subject: Implement Digital Preservation
 tags:
 - Floppy Disks
@@ -28,6 +33,10 @@ downloads:
   - file: exports/imaging-floppy-disks.epub
     title: ePub
 ---
+
+:::{note}
+This first version of this guide was created for a workshop at iPRES 2024. It will be updated and become hosted by the DPC as part of the [Future Nostalgia](https://www.lib.cam.ac.uk/stories/floppy-disk-funding) project.
+:::
 
 :::{aside}
 <img src="./media/image7.png"/>
