@@ -3,7 +3,9 @@ title: Welcome
 ---
 
 ```{warning} Steady Now!
-This is an experiment in using a [text-based publication system called MystMD](https://mystmd.org/) as a way of managing and publishing formal DPC publications.    
+:class: dropdown
+:open:
+This is an experiment in using a [text-based publication system called MystMD](https://mystmd.org/) as a way of managing and publishing formal DPC publications. It currently reflects the structure of [this section of the current website](https://www.dpconline.org/digipres), but with just a small selection of content migrated over.  More details of how this all works can be found in [the project README file](https://github.com/Digital-Preservation-Coalition/digipres-publications?tab=readme-ov-file#digipres-publications).  
 ```
 
 :::{card}
@@ -33,7 +35,3 @@ Tackle digital preservation challenges with our tools for maturity modelling, po
 <div style="float: left; width: 100px; padding: 0.5em;"><img src="./images/icon_case.png"></div>
 Raise the profile of digital preservation internationally and celebrate the successful work of our members in this field.
 :::
-
-
-```{show-index}
-```
