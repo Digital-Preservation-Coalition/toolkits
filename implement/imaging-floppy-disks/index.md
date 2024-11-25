@@ -30,8 +30,10 @@ downloads:
     title: ePub
 ---
 
-:::{warning} Status: Work In Progress
+:::{warning} Status: Update In Progress
 This first version of this guide was created for a workshop at iPRES 2024. It is being updated and becoming hosted by the DPC as part of the [Future Nostalgia](https://www.lib.cam.ac.uk/stories/floppy-disk-funding) project.
+
+The source for this publication is [here](https://github.com/Digital-Preservation-Coalition/digipres-publications/blob/main/implement/imaging-floppy-disks/index.md) and comments and contributions are welcome via GitHub.
 :::
 
 :::{aside}

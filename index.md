@@ -21,7 +21,6 @@ Definitions and explanations for anyone new to digital preservation who would li
 Discover authoritative guidance and good practice in digital preservation.
 :::
 
-
 :::{card}
 :header: Implement Digital Preservation
 :link: ./implement
