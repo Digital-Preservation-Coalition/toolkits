@@ -15,7 +15,8 @@ exports:
     output: exports/dpc-competency-framework.pdf
 downloads:
   - file: index.md
-    title: index.md
+    filename: dpc-competency-framework.md
+    title: Markdown
   - file: exports/dpc-competency-framework.pdf
     title: PDF
   - file: exports/index.epub

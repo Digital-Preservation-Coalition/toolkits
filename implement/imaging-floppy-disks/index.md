@@ -23,7 +23,8 @@ exports:
     output: exports/imaging-floppy-disks.pdf
 downloads:
   - file: index.md
-    title: index.md
+    filename: imaging-floppy-disks.md
+    title: Markdown
   - file: exports/imaging-floppy-disks.pdf
     title: PDF
   - file: exports/index.epub

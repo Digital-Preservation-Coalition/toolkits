@@ -8,6 +8,7 @@ on:
 env:
   # `BASE_URL` determines the website is served from, including CSS & JS assets
   # You may need to change this to `BASE_URL: ''`
+  # ANJ: Having to add a trailing slash for internal links on cards to work, but this does create and annoying double-slash elsewhere.
   BASE_URL: /${{ github.event.repository.name }}/
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
