@@ -34,3 +34,10 @@ Tackle digital preservation challenges with our tools for maturity modelling, po
 <div style="float: left; width: 100px; padding: 0.5em;"><img src="./images/icon_case.png"></div>
 Raise the profile of digital preservation internationally and celebrate the successful work of our members in this field.
 :::
+
+:::{card}
+:header: Professional Development
+:link: ./prof-development
+<div style="float: left; width: 100px; padding: 0.5em;"><img src="./images/icon_stepbystep.png"></div>
+Train your staff in digital preservation and get support for professional development.
+:::

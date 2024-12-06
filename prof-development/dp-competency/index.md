@@ -1,5 +1,6 @@
 ---
 title: DPC Digital Preservation Competency Framework
+subject: Professional Development
 date: 2022-08
 version: 1.1
 doi: 10.7207/dpccf22-01
@@ -8,6 +9,18 @@ authors:
 - A. Currie
 license: CC-BY-NC-SA-4.0
 open_access: true
+exports:
+  - format: pdf
+    template: lapreprint-typst
+    output: exports/dpc-competency-framework.pdf
+downloads:
+  - file: index.md
+    title: index.md
+  - file: exports/dpc-competency-framework.pdf
+    title: PDF
+  - file: exports/index.epub
+    filename: dpc-competency-framework.epub
+    title: ePub
 ---
 
 <img src="./media/image1.jpg" alt="The Digital Preservation Coalition (DPC) logo" />

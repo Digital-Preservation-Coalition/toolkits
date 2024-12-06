@@ -26,7 +26,8 @@ downloads:
     title: index.md
   - file: exports/imaging-floppy-disks.pdf
     title: PDF
-  - file: exports/imaging-floppy-disks.epub
+  - file: exports/index.epub
+    filename: imaging-floppy-disks.epub
     title: ePub
 ---
 :::{warning} Status: Update In Progress
