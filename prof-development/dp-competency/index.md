@@ -1,20 +1,16 @@
 ---
-title: Competency Framework
-navigation: 10
+title: DPC Digital Preservation Competency Framework
+date: 2022-08
+version: 1.1
+doi: 10.7207/dpccf22-01
+authors:
+- S. McMeekin
+- A. Currie
+license: CC-BY-NC-SA-4.0
+open_access: true
 ---
-<img src="./media/image1.jpg" style="width:3.78787in;height:0.83333in" alt="The Digital Preservation Coalition (DPC) logo" />
 
-**DPC Digital Preservation Competency Framework**
-
-**Version 1.1**
-
-August 2022
-
-# Contents
-{:.no_toc}
-
-* TOC
-{:toc}
+<img src="./media/image1.jpg" alt="The Digital Preservation Coalition (DPC) logo" />
 
 # Document History
 
@@ -57,7 +53,8 @@ The Competency Framework is made available for use and reuse under a [Creative C
 
 Attributions for the Competency Framework should be as follows:
 
-*DPC Competency Framework, 1<sup>st</sup> Edition,* *https://doi.org/10.7207/dpccf22-01, Digital Preservation Coalition, © 2022*
+*DPC Competency Framework, 1<sup>st</sup> Edition, `https://doi.org/10.7207/dpccf22-01`, Digital Preservation Coalition, © 2022*
+
 
 # Introduction
 
