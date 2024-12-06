@@ -5,7 +5,7 @@ title: Welcome
 ```{warning} Steady Now!
 :class: dropdown
 :open:
-This is an experiment in using a [text-based publication system called MystMD](https://mystmd.org/) as a way of managing and publishing formal DPC publications. It currently reflects the structure of [this section of the current website](https://www.dpconline.org/digipres), but with just a small selection of content migrated over.  More details of how this all works can be found in [the project README file](https://github.com/Digital-Preservation-Coalition/digipres-publications?tab=readme-ov-file#digipres-publications).  
+This is an experiment in using a [text-based publication system called MystMD](https://mystmd.org/) as a way of managing and publishing formal {term}`DPC` publications. It currently reflects the structure of [this section of the current website](https://www.dpconline.org/digipres), but with just a small selection of content migrated over.  More details of how this all works can be found in [the project README file](https://github.com/Digital-Preservation-Coalition/digipres-publications?tab=readme-ov-file#digipres-publications).  
 ```
 
 :::{card}

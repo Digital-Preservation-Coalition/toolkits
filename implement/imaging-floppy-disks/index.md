@@ -29,7 +29,6 @@ downloads:
   - file: exports/imaging-floppy-disks.epub
     title: ePub
 ---
-
 :::{warning} Status: Update In Progress
 This first version of this guide was created for a workshop at iPRES 2024. It is being updated and becoming hosted by the DPC as part of the [Future Nostalgia](https://www.lib.cam.ac.uk/stories/floppy-disk-funding) project.
 
@@ -42,7 +41,7 @@ The source for this publication is [here](https://github.com/Digital-Preservatio
 
 # Abstract
 
-This guide is written for people getting started with imaging floppy disks within the digital preservation community, particularly smaller institutions or those with tight budgetary constraints.
+This guide is written for people getting started with {index}`imaging floppy disks<media migration>` within the digital preservation community, particularly smaller institutions or those with tight budgetary constraints.
 
 The guide starts by outlining how to acquire and set up the equipment. It will then give an example of a workflow for the transfer of floppy disks. Finally, it will highlight some obscure formats and how to get started with these. The assumption is made that you have a computer or laptop to connect the floppy controller to. This device does not have to be anything fancy or high-tech, as little processing power and storage is needed to work with floppy disks.
 

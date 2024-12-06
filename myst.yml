@@ -35,6 +35,12 @@ project:
   - file: champion/index.md
     children:
     - title: ...TBA...
+  - file: prof-development/index.md
+    children:
+    - file: prof-development/dp-competency/index.md
+  - file: glossary.md
+  - file: content-index.md
+
     
 site:
   template: book-theme
