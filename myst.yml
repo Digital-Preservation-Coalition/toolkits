@@ -1,9 +1,9 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: dpc-publications
-  title: DPC Publications
-  github: https://github.com/Digital-Preservation-Coalition/digipres-publications
+  id: toolkits
+  title: DPC Toolkits
+  github: https://github.com/Digital-Preservation-Coalition/toolkits
   license:
     content: CC-BY-4.0
   open_access: true
